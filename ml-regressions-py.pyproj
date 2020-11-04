@@ -21,7 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="linear-wGDescent.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="logistic-wGDescent.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ml_regressions_py.py" />
+    <Compile Include="directories.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
