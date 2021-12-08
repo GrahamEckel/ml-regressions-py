@@ -1,19 +1,18 @@
-Completed:
-- Linearized Simple Linear Regression with Gradient Descent 
-- Linearized Simple Logistic Regression with Gradient Descent
+What has been completed in this project:
+- R/Py: SLR (linearized with Gradient Descent in Py)
+- R/Py: Logistic (linearized with Gradient Descent in Py)
+- R: MLR
+- R: GLMs
+- R: Methods for variable selection in regressions
+- R: parametric bootstrapping 
+- R: Elastic Net Logistic Regression (L1 and L2)
 
-To Do:
-- Linearized Multivariate Linear Regression with Gradient Descent
-- Linearized Multivariate Logistic Regression with Gradient Descent
-- L1 (LASSO) Norm Linear Regression (unsupervised)
-- L2 (RIDGE) Norm Linear Regression (supervised)
-- Regression Kernels
-- Baysian Regression
-- Other useful GLMs
+Things left to to do:
+- Bunch of cleaning and story telling
+- Py: Linearized Multivariate Linear Regression with Gradient Descent
+- Py: Linearized Multivariate Logistic Regression with Gradient Descent (and other GLMs)
+- Py: L1 (LASSO) & L2 (RIDGE) Linear Regression 
+- R/Py: Regression kernels
+- R/Py: Bayesian regression
 
-Direction:
-- Clean the project up:
-  * use public data
-  * call classes in main, focus on visualizations
-- Split out individual analysis to Juptyer Notebooks
 
